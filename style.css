@@ -28,15 +28,15 @@ body h1 {
 #marco { 
 	grid-row: 3/4;
 	grid-column: 3/4;
-	margin-top: -170px;
-	margin-left: -3px;
+	margin-top: -150px;
+
 	z-index: 3;
 }
 
 #rejilla {  
 	grid-row: 2/3;
 	grid-column: 3/4;
-	margin-top: 60px;
+	margin-top: 80px;
 	margin-left: 5px;
 	z-index: 2;
 	animation-name: Perseguir;
@@ -44,7 +44,18 @@ body h1 {
 	animation-iteration-count: initial;
 	
 }
+li{
+	text-align: left;
+}
 
+#muertos{
+	padding-top: 20px;
+
+}
+#nombresLista{
+	margin-top: 30px;
+	margin-left: 30px;
+}
 @keyframes Perseguir {
 
 	0% {  
@@ -130,20 +141,20 @@ body h1 {
 	color: red;
 	margin-top: 20px;
 	grid-row: 1/5;
-
-	grid-column: 4/5;
+	grid-column: 5/5;
   }
   #colocar{
 	color: #fff;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
+	top: 130px;
+	left: -60px;
+	right: 0px;
+	bottom: 0px;
 	margin: auto;
 	position: absolute;
 	width: 1px;
 	height: 1px;
 	z-index: 11;
+
   }
 
 #nombresLista{
@@ -167,6 +178,7 @@ body h1 {
   p{
 	text-align:center;
 	margin-top: 2em;
+	padding-top: 20px;
 	font-size:3em;
 	margin:20px 0 20px 0;
   }
