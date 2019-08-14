@@ -42,7 +42,7 @@ body h1 {
 
 #rejilla.active {  
 	animation-name: Perseguir;
-	animation-duration:  10s;
+	animation-duration:  5s;
 	animation-iteration-count: initial;
 	
 }
